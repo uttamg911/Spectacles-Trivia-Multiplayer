@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    80208627-dc42-40e3-93ee-d4276ea2d3df: 282b25d5-0114-0c82-cb94-0c624161dbef/79b74d422dcec09d27af7e694a4b07b4/Data/SnapGhost_Collision_Mesh.mesh
+  Assets:
+    - !<FileMesh/80208627-dc42-40e3-93ee-d4276ea2d3df>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 464
+        Vertices: 259
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.471545, y: 2.541910, z: 2.114963}
+  SourceHash: 79b74d422dcec09d27af7e694a4b07b4
+  FileHash: 73e391c3e03ed0c9a80ce39fa3f99423
+  NativePackageItems:
+    []

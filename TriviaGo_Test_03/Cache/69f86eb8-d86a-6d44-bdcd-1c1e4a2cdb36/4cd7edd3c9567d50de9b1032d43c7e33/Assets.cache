@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ee1767c2-be75-4ae2-9a4f-07eca363a618: 69f86eb8-d86a-6d44-bdcd-1c1e4a2cdb36/4cd7edd3c9567d50de9b1032d43c7e33/Data/ui-rocket-land-cutoff-c_-1dB_stereo4824.wav
+  Assets:
+    - !<FileAudioTrack/ee1767c2-be75-4ae2-9a4f-07eca363a618>
+      PackagePath: ""
+  SourceHash: 4cd7edd3c9567d50de9b1032d43c7e33
+  FileHash: ae3c1be095cd532a1db450f7f3025fde
+  NativePackageItems:
+    []

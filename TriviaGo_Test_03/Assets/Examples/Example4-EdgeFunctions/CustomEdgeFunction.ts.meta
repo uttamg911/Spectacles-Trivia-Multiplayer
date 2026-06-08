@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/9a5e40b1-fe05-4dca-940c-8299323ef8a3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8be63474-d861-4158-8b56-077029d14975
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8be63474-d861-4158-8b56-077029d14975
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4ddf9231-7e31-4dc5-899a-85f1c3e35c0e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4ddf9231-7e31-4dc5-899a-85f1c3e35c0e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 91a33446-5db7-4e3d-8cc6-389cae05b1c6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableDebugLogs: false
+    functionName: false
+    imageUrl: false
+    outputImage: false
+    processButton: false
+    snapCloudRequirements: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      functionName: "[your-function-name]"
+      imageUrl: "[Insert your Supabase storage URL]/storage/v1/object/public/[bucket-name]/[path-to-image]"
+      outputImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      processButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType snapCloudRequirements {"hint":"Reference to SnapCloudRequirements for centralized Supabase configuration"}'
+    - '// @input string functionName = "[your-function-name]" {"hint":"Edge Function name (will use SnapCloudRequirements to build full URL)"}'
+    - '// @input string imageUrl = "[Insert your Supabase storage URL]/storage/v1/object/public/[bucket-name]/[path-to-image]" {"hint":"Image URL from your Supabase Storage to process"}'
+    - '// @input Component.Image outputImage {"hint":"Output image component to display processed result"}'
+    - '// @input AssignableType_1 processButton {"hint":"RectangleButton to trigger Edge Function call (from Spectacles UI Kit)"}'
+    - '// @input bool enableDebugLogs = true {"hint":"Enable debug logging"}'

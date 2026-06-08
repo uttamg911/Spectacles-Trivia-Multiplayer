@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/79bacf4a-82bf-430e-802a-5e2497e4116d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5b334e33-6ddf-4629-b65a-b79e15a44517
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5b334e33-6ddf-4629-b65a-b79e15a44517
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 84772dbc-7ddd-4a04-93f6-85876ab4b7a4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/84772dbc-7ddd-4a04-93f6-85876ab4b7a4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 34e30268-0235-4e35-9332-8f4ff87f9189
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    correctText: false
+    enableDebugLogs: false
+    functionName: false
+    incorrectText: false
+    object: false
+    optionButton1: false
+    optionButton2: false
+    optionButton3: false
+    optionButton4: false
+    optionButtonChildTextName: false
+    processButton: false
+    questionText: false
+    scoreValueText: false
+    snapCloudRequirements: false
+    topic: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      functionName: "[your-function-name]"
+      object: ""
+      topic: ""
+      enableDebugLogs: true
+      processButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      questionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      correctText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      incorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      scoreValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      optionButton1: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      optionButton2: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      optionButton3: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      optionButton4: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      optionButtonChildTextName: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType snapCloudRequirements
+    - '// @input string functionName = "[your-function-name]"'
+    - // @input string object
+    - // @input string topic
+    - // @input bool enableDebugLogs = true
+    - // @input AssignableType_1 processButton
+    - // @input Component.Text questionText
+    - // @input Component.Text correctText
+    - // @input Component.Text incorrectText
+    - // @input Component.Text scoreValueText
+    - // @input AssignableType_2 optionButton1
+    - // @input AssignableType_3 optionButton2
+    - // @input AssignableType_4 optionButton3
+    - // @input AssignableType_5 optionButton4
+    - // @input string optionButtonChildTextName
