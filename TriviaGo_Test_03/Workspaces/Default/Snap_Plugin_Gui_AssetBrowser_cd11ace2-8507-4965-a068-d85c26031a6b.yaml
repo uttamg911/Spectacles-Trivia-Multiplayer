@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1239
+    size: 1235
     values:
       - CompositeCameraModified
       - CompositeCameraModified/CompositeImage__PLACE_IN_SCENE.prefab
@@ -941,7 +941,6 @@ CollapsedEntities:
       - SpectaclesInteractionKitExamples.lspkg/Examples/UIStarter/Textures/image_unlit.ss_graph
       - SpectaclesInteractionKitExamples.lspkg/package.native
       - SpectaclesInteractionKitExamples.lspkg/package_dependencies.json
-      - SpectaclesSyncKit.lspkg
       - SpectaclesSyncKit.lspkg/Assets
       - SpectaclesSyncKit.lspkg/Assets/Animations
       - SpectaclesSyncKit.lspkg/Assets/Animations/Scene.animationAsset
@@ -967,7 +966,6 @@ CollapsedEntities:
       - SpectaclesSyncKit.lspkg/Components/SyncRealtimeStore.ts
       - SpectaclesSyncKit.lspkg/Components/SyncTransform.ts
       - SpectaclesSyncKit.lspkg/Connected Lens Module.connectedLensModule
-      - SpectaclesSyncKit.lspkg/Core
       - SpectaclesSyncKit.lspkg/Core/EventWrapper.ts
       - SpectaclesSyncKit.lspkg/Core/KeyedEventWrapper.ts
       - SpectaclesSyncKit.lspkg/Core/MockMultiplayerSession.ts
@@ -999,7 +997,6 @@ CollapsedEntities:
       - SpectaclesSyncKit.lspkg/CustomLandmarkGuidance/CustomLandmarkGuidanceBinding.ts
       - SpectaclesSyncKit.lspkg/CustomLandmarkGuidance/GuidanceCopy.ts
       - SpectaclesSyncKit.lspkg/CustomLandmarkGuidance/SimplifiedLandmarkGuidance.ts
-      - SpectaclesSyncKit.lspkg/Examples
       - SpectaclesSyncKit.lspkg/Examples/CustomLandmarkGuidanceExample.ts
       - SpectaclesSyncKit.lspkg/Examples/CyclingMaterialExample.ts
       - SpectaclesSyncKit.lspkg/Examples/DisplayStorageProperty/CurrentTimeObject.ts
@@ -1013,7 +1010,6 @@ CollapsedEntities:
       - SpectaclesSyncKit.lspkg/Examples/Materials/ExampleMaterial.ss_graph
       - SpectaclesSyncKit.lspkg/Examples/SessionControllerExample.ts
       - SpectaclesSyncKit.lspkg/Examples/SessionControllerExampleJavascript.js
-      - SpectaclesSyncKit.lspkg/Examples/StorageProperty
       - SpectaclesSyncKit.lspkg/Examples/StorageProperty/AutoStoragePropertyExample.ts
       - SpectaclesSyncKit.lspkg/Examples/StorageProperty/AutoStoragePropertyExampleJavascript.js
       - SpectaclesSyncKit.lspkg/Examples/StorageProperty/ManualStoragePropertyExample.ts

@@ -12,6 +12,8 @@ dock:
               - items:
                   - persistentName: Snap.Plugin.Gui.AssetBrowser
                     Uuid: cd11ace2-8507-4965-a068-d85c26031a6b
+                  - persistentName: Snap.Plugin.Gui.SpectaclesMonitorPanel
+                    Uuid: 38afa23c-add1-4163-b37b-654bc99f3486
                 type: section
                 current: 0
             sizes:
@@ -33,8 +35,8 @@ dock:
                 type: section
                 current: 0
             sizes:
-              - 601
-              - 309
+              - 494
+              - 416
             type: splitter
             orientation: vertical
           - items:
@@ -54,15 +56,15 @@ dock:
                 type: section
                 current: 0
             sizes:
-              - 455
-              - 455
+              - 464
+              - 446
             type: splitter
             orientation: vertical
         sizes:
-          - 392
-          - 587
-          - 230
-          - 500
+          - 413
+          - 607
+          - 246
+          - 443
         type: splitter
         orientation: horizontal
     sizes:
