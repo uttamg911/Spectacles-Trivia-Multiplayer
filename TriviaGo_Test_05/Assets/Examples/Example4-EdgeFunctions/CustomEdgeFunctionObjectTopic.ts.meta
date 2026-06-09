@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/cd2896b3-23cf-49e2-823d-e20ecb61ef6f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d209324f-5f2c-47ff-b375-5b5a9451810d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d209324f-5f2c-47ff-b375-5b5a9451810d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1fdbc1ff-7c06-47bf-b2f4-20050613b100
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1fdbc1ff-7c06-47bf-b2f4-20050613b100>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c75033e2-de8f-4e95-a802-8850c87fd9c3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableDebugLogs: false
+    functionName: false
+    object: false
+    outputImage: false
+    processButton: false
+    snapCloudRequirements: false
+    topic: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      functionName: "[your-function-name]"
+      object: ""
+      topic: ""
+      outputImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      processButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType snapCloudRequirements {"hint":"Reference to SnapCloudRequirements for centralized Supabase configuration"}'
+    - '// @input string functionName = "[your-function-name]" {"hint":"Edge Function name (will use SnapCloudRequirements to build full URL)"}'
+    - '// @input string object {"hint":"Optional Trivia `object` filter. Leave empty to not filter."}'
+    - '// @input string topic {"hint":"Optional Trivia `topic` filter. Leave empty to not filter."}'
+    - '// @input Component.Image outputImage {"hint":"Output image component to display processed result (not used by random-trivia)"}'
+    - '// @input AssignableType_1 processButton {"hint":"RectangleButton to trigger Edge Function call (from Spectacles UI Kit)"}'
+    - '// @input bool enableDebugLogs = true {"hint":"Enable debug logging"}'

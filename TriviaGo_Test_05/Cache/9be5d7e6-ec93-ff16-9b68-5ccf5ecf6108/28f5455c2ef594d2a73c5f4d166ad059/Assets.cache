@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6de05408-1bc0-4f9f-b2e3-4b0edd372bd8: 9be5d7e6-ec93-ff16-9b68-5ccf5ecf6108/28f5455c2ef594d2a73c5f4d166ad059/Data/SIK_Meteor_bc.png
+  Assets:
+    - !<FileTexture/6de05408-1bc0-4f9f-b2e3-4b0edd372bd8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 28f5455c2ef594d2a73c5f4d166ad059
+  FileHash: 82f4d615efa71d538f84cd0dfa36ce08
+  NativePackageItems:
+    []

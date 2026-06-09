@@ -1,0 +1,70 @@
+- !<Material/45dc653b-ef7f-4559-8662-04f3cde30cee>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 98c0d69a-894f-4496-8591-1ac7e90b77cc
+- !<PassInfo/98c0d69a-894f-4496-8591-1ac7e90b77cc>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: Always
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    renderTarget0:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    renderTarget1:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    renderTarget2:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    renderTarget3:
+      typeIdx: 9
+      value:
+        id: ffffffff-ffff-ffff-ffff-ffffffffffff
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+  Pass: !<reference> d2191c30-2ea0-4790-a71d-845400653ace

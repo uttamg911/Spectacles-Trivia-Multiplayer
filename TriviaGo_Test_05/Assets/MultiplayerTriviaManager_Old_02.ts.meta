@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/8a71b7d9-5c79-4915-94df-e68fc29bcd12>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 68dfce83-32d6-4b6f-97d2-f55b2522229f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 68dfce83-32d6-4b6f-97d2-f55b2522229f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4d97f2d4-8466-4afd-b613-b65591c2aff4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4d97f2d4-8466-4afd-b613-b65591c2aff4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 96b4467c-69ba-499a-9e54-01d2bec31d54
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    correctText: false
+    enableDebugLogs: false
+    functionName: false
+    incorrectText: false
+    myScoreValueText: false
+    object: false
+    opponentScoreValueText: false
+    optionButton1: false
+    optionButton2: false
+    optionButton3: false
+    optionButton4: false
+    optionButtonChildTextName: false
+    processButton: false
+    questionText: false
+    roundDurationSeconds: false
+    snapCloudRequirements: false
+    statusText: false
+    timerText: false
+    topic: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: ""
+      object: ""
+      topic: ""
+      processButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      questionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      optionButton1: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      optionButton2: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      optionButton3: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      optionButton4: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      optionButtonChildTextName: ""
+      correctText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      incorrectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      myScoreValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      opponentScoreValueText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      roundDurationSeconds: !<float> 15.000000
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent snapCloudRequirements
+    - // @input string functionName
+    - // @input string object
+    - // @input string topic
+    - // @input AssignableType processButton
+    - // @input Component.Text questionText
+    - // @input AssignableType_1 optionButton1
+    - // @input AssignableType_2 optionButton2
+    - // @input AssignableType_3 optionButton3
+    - // @input AssignableType_4 optionButton4
+    - // @input string optionButtonChildTextName
+    - // @input Component.Text correctText
+    - // @input Component.Text incorrectText
+    - // @input Component.Text myScoreValueText
+    - // @input Component.Text statusText
+    - // @input Component.Text opponentScoreValueText
+    - // @input Component.Text timerText
+    - // @input float roundDurationSeconds = 15
+    - // @input bool enableDebugLogs = true

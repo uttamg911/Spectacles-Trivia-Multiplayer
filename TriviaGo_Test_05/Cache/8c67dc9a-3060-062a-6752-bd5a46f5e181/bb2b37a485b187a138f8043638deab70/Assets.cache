@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f396f492-ab24-44c5-b0f5-367fa5b51adb: 8c67dc9a-3060-062a-6752-bd5a46f5e181/bb2b37a485b187a138f8043638deab70/Data/SIK_Snap_logo.png
+  Assets:
+    - !<FileTexture/f396f492-ab24-44c5-b0f5-367fa5b51adb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: bb2b37a485b187a138f8043638deab70
+  FileHash: 117b7ba06683c2a958b58b483383bb68
+  NativePackageItems:
+    []

@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/ec5ddf0f-0e3e-47f5-9ae6-d00e682555c1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6c40fe15-27da-4e92-90f8-241f05bd0fb8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6c40fe15-27da-4e92-90f8-241f05bd0fb8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 17b82403-4773-48e6-a29e-5ecf6dba0f62
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/17b82403-4773-48e6-a29e-5ecf6dba0f62>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b65d778e-463f-49d2-a42e-2c78da3845b4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableDebugLogs: false
+    functionName: false
+    object: false
+    outputImage: false
+    processButton: false
+    snapCloudRequirements: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      functionName: "[your-function-name]"
+      object: ""
+      outputImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      processButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType snapCloudRequirements {"hint":"Reference to SnapCloudRequirements for centralized Supabase configuration"}'
+    - '// @input string functionName = "[your-function-name]" {"hint":"Edge Function name (will use SnapCloudRequirements to build full URL)"}'
+    - '// @input string object {"hint":"Optional Trivia `object` filter. Sent as { object: <value> }"}'
+    - '// @input Component.Image outputImage {"hint":"Output image component to display processed result (not used by random-trivia)"}'
+    - '// @input AssignableType_1 processButton {"hint":"RectangleButton to trigger Edge Function call (from Spectacles UI Kit)"}'
+    - '// @input bool enableDebugLogs = true {"hint":"Enable debug logging"}'
